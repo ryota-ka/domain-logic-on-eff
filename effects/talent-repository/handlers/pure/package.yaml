@@ -1,0 +1,21 @@
+name:                effects-talent-repository-handlers-pure
+version:             0
+github:              "ryota-ka/domain-logic-on-eff"
+license:             BSD3
+author:              "Ryota Kameoka"
+maintainer:          "kameoka.ryota@gmail.com"
+copyright:           "2019 Ryota Kameoka"
+
+dependencies:
+- base
+- containers
+- domain-objects
+- effects-talent-repository
+- extensible
+
+ghc-options:
+- -Wall
+- -Werror
+
+library:
+  source-dirs: src

@@ -1,0 +1,21 @@
+name:                effects-talent-id-generator-handlers-pure
+version:             0
+github:              "ryota-ka/domain-logic-on-eff"
+license:             BSD3
+author:              "Ryota Kameoka"
+maintainer:          "kameoka.ryota@gmail.com"
+copyright:           "2019 Ryota Kameoka"
+
+dependencies:
+- base
+- domain-objects
+- effects-talent-id-generator
+- extensible
+- text
+
+ghc-options:
+- -Wall
+- -Werror
+
+library:
+  source-dirs: src

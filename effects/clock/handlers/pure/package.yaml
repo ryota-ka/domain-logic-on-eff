@@ -1,0 +1,20 @@
+name:                effects-clock-handlers-pure
+version:             0
+github:              "ryota-ka/domain-logic-on-eff"
+license:             BSD3
+author:              "Ryota Kameoka"
+maintainer:          "kameoka.ryota@gmail.com"
+copyright:           "2019 Ryota Kameoka"
+
+dependencies:
+- base
+- effects-clock
+- extensible
+- time
+
+library:
+  source-dirs: src
+
+ghc-options:
+- -Wall
+- -Werror

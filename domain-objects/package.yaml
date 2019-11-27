@@ -1,0 +1,28 @@
+name:                domain-objects
+version:             0
+github:              "ryota-ka/domain-logic-on-eff"
+license:             BSD3
+author:              "Ryota Kameoka"
+maintainer:          "kameoka.ryota@gmail.com"
+copyright:           "2019 Ryota Kameoka"
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/ryota-ka/domain-logic-on-eff#readme>
+
+dependencies:
+- base
+- text
+- time
+
+library:
+  source-dirs: src
+
+ghc-options:
+- -Wall
+- -Werror

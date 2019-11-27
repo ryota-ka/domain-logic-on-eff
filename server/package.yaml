@@ -1,0 +1,41 @@
+name:                server
+version:             0
+github:              "ryota-ka/domain-logic-on-eff"
+license:             BSD3
+author:              "Ryota Kameoka"
+maintainer:          "kameoka.ryota@gmail.com"
+copyright:           "2019 Ryota Kameoka"
+
+dependencies:
+- aeson
+- base
+- domain-objects
+- effects-clock
+- effects-clock-handlers-io
+- effects-io
+- effects-talent-id-generator
+- effects-talent-id-generator-handlers-uuid-v4
+- effects-talent-repository
+- effects-talent-repository-handlers-io-ref
+- extensible
+- http-types
+- scotty
+- use-cases
+
+ghc-options:
+- -Wall
+- -Werror
+
+library:
+  source-dirs: src
+
+executables:
+  server:
+    main: Main.hs
+    source-dirs: exe/server
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - server
